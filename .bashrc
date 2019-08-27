@@ -121,5 +121,6 @@ alias mr='make run'
 alias m='make'
 alias mt='make test'
 alias cdcode='cd ~/Desktop/code'
+alias please='sudo'
 export PATH=$PATH:/usr/local/go/bin
 
