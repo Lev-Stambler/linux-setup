@@ -124,3 +124,8 @@ alias cdcode='cd ~/Desktop/code'
 alias please='sudo'
 export PATH=$PATH:/usr/local/go/bin
 
+mkcd() { mkdir -p "$1" && cd "$1"; } 
+
+alias gs="git status"
+alias gp="git push"
+alias gpl="git pull"
