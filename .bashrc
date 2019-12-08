@@ -116,11 +116,11 @@ if ! shopt -oq posix; then
   fi
 fi
 
-alias cdbs='cd ~/Desktop/code/bs'
+alias cdbs='cd ~/bs'
 alias mr='make run'
 alias m='make'
 alias mt='make test'
-alias cdcode='cd ~/Desktop/code'
+alias cdcode='cd ~/code'
 alias please='sudo'
 export PATH=$PATH:/usr/local/go/bin
 
@@ -129,3 +129,11 @@ mkcd() { mkdir -p "$1" && cd "$1"; }
 alias gs="git status"
 alias gp="git push"
 alias gpl="git pull"
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/code
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
+# talkmeup notes
+# ssh-agent bash
+# ssh-add ~/.ssh/talkmeup/talkmeup
+
