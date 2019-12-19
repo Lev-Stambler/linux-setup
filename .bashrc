@@ -130,7 +130,7 @@ alias gs="git status"
 alias gp="git push"
 alias gpl="git pull"
 export GOROOT=/usr/local/go
-export GOPATH=$HOME/code
+export GOPATH=$HOME/code/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 # talkmeup notes
