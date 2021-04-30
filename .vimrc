@@ -1,1 +1,1 @@
-set number
+/home/lev/.vimrc
